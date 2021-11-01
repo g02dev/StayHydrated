@@ -2,7 +2,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class TodayWaterViewController: UIViewController {
     
     @IBOutlet weak var todayWaterView: UIView!
     @IBOutlet weak var currentWaterLabel: UILabel!
@@ -43,5 +43,4 @@ class MainViewController: UIViewController {
         targetWaterLabel.text = "\(waterManager.targerWaterMl) ml"
         progreeView.progress = waterManager.targetCompletionRate
     }
-
 }

@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		B7B63098272F3D310096A7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B63097272F3D310096A7CE /* AppDelegate.swift */; };
 		B7B6309A272F3D310096A7CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B63099272F3D310096A7CE /* SceneDelegate.swift */; };
-		B7B6309C272F3D310096A7CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B6309B272F3D310096A7CE /* MainViewController.swift */; };
+		B7B6309C272F3D310096A7CE /* TodayWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B6309B272F3D310096A7CE /* TodayWaterViewController.swift */; };
 		B7B6309F272F3D310096A7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B6309D272F3D310096A7CE /* Main.storyboard */; };
 		B7B630A1272F3D330096A7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B630A0272F3D330096A7CE /* Assets.xcassets */; };
 		B7B630A4272F3D330096A7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B630A2272F3D330096A7CE /* LaunchScreen.storyboard */; };
 		B7B630AC272F411C0096A7CE /* WaterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B630AB272F411C0096A7CE /* WaterManager.swift */; };
+		B7B630AE273063280096A7CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B630AD273063280096A7CE /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7B63094272F3D310096A7CE /* StayHydrated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StayHydrated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B63097272F3D310096A7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B63099272F3D310096A7CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7B6309B272F3D310096A7CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B7B6309B272F3D310096A7CE /* TodayWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWaterViewController.swift; sourceTree = "<group>"; };
 		B7B6309E272F3D310096A7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7B630A0272F3D330096A7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B630A3272F3D330096A7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7B630A5272F3D330096A7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B630AB272F411C0096A7CE /* WaterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterManager.swift; sourceTree = "<group>"; };
+		B7B630AD273063280096A7CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			children = (
 				B7B63097272F3D310096A7CE /* AppDelegate.swift */,
 				B7B63099272F3D310096A7CE /* SceneDelegate.swift */,
-				B7B6309B272F3D310096A7CE /* MainViewController.swift */,
+				B7B630AF27306CEB0096A7CE /* View Controllers */,
 				B7B630AB272F411C0096A7CE /* WaterManager.swift */,
 				B7B6309D272F3D310096A7CE /* Main.storyboard */,
 				B7B630A0272F3D330096A7CE /* Assets.xcassets */,
@@ -68,6 +70,15 @@
 				B7B630A5272F3D330096A7CE /* Info.plist */,
 			);
 			path = StayHydrated;
+			sourceTree = "<group>";
+		};
+		B7B630AF27306CEB0096A7CE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7B630AD273063280096A7CE /* MainViewController.swift */,
+				B7B6309B272F3D310096A7CE /* TodayWaterViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B6309C272F3D310096A7CE /* MainViewController.swift in Sources */,
+				B7B6309C272F3D310096A7CE /* TodayWaterViewController.swift in Sources */,
 				B7B63098272F3D310096A7CE /* AppDelegate.swift in Sources */,
 				B7B6309A272F3D310096A7CE /* SceneDelegate.swift in Sources */,
 				B7B630AC272F411C0096A7CE /* WaterManager.swift in Sources */,
+				B7B630AE273063280096A7CE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
